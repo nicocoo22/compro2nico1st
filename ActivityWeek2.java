@@ -8,10 +8,13 @@ public class ActivityWeek2 {
         for (int i = 1; i < theaterRow.length; i++){
             System.out.println("Seat" + i +": " + theaterRow[i]);
         
-            if( theaterRow [i] == 0);{
+            if( theaterRow [i] == 0){
             availableSeats++;
         }
              System.out.println("Available seats" );
-    } 
+        } 
+    
     }
+
+
 }
